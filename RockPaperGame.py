@@ -1,6 +1,6 @@
 # Game Use Cases :
 
-'''  1. Scissor & Scissor --> Tie 
+''' 1. Scissor & Scissor --> Tie 
     2. Paper & Rock --> Paper Wins
     3. Scissor & Paper --> Scissor Wins
     4. Rock & Scissor --> Rock Wins 
@@ -41,7 +41,7 @@ while x == 1:
     elif me == "rock" and computer == 'rock':
         print("Draw !!!")
     elif me == 'e':
-        print("exit the game!!!")
+        print("Goodbye!!!")
         exit()
     else:
         print('Wrong selection, try again')
